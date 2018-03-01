@@ -1,0 +1,39 @@
+.quote , .author {
+  color: black;}
+button {
+  font-family: 'IM Fell DW Pica SC', serif;}
+h1{
+  font-family: 'Lobster', cursive;}
+.quotes {
+ width: 70%;
+ margin-left: 15%;
+ margin-top: 10%;
+ font-size: 30px;
+}
+.author {
+  float: right;
+  font-family: 'Romanesco', cursive;
+  }
+.quote {
+  font-family: 'Pacifico', cursive;
+}
+body{
+background: url('https://wallpaperlayer.com/img/2015/6/gaussian-blur-wallpaper-3237-3441-hd-wallpapers.jpg');
+color: black;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+.container {
+  margin-top: 10%;
+}
+p{
+  font-family: 'Catamaran', sans-serif;
+}
+button:hover {
+  box-shadow: 4px 4px;
+  transition: 1s;
+}
+button:active {
+transform: translateY(4px);
+}
